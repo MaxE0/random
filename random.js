@@ -11,6 +11,8 @@ function createFirstScene() {
     makeCircle(100,120,50,"blue",0.25)
     makeRect(20,30,70,25,"tan")
     makePolygon(30,10,20,10,50,"red")
+    makeLine(25,25,100,100, "brown",2,1)
+    makeCircle(20,30,10,"red",1)
 }
 
 
