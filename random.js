@@ -13,7 +13,7 @@ function createFirstScene() {
     makeLine(60,50,100,50, "brown",2,1)
     makeCircle(40,30,30,"tan",1)
     makeCircle(40,30,10,"white")
-    makeText(HipsterWHALE,140,30,20)
+    makeText("HipsterWHALE",100,30,10,"sans-serif","navy",0.5)
 }
 
 
@@ -32,6 +32,13 @@ function createSecondScene() {
 function createThirdScene() {
      makeRect(0,0,200,100,"black")
     makeCircle(50,50,50,"green",1)
+    makeCircle(30,30,15,"white")
+    makeCircle(70,30,15,"white")
+    makeLine(25,35,10,20,"magenta",2,0.3)
+    makeLine(100,35,95,20,"magenta",2,0.3)
+    makeLine(64,45,55,26,"magenta",2,0.3)
+    makeLine(44,65,57,36,"magenta",2,0.3)
+    makeLine(12,44,7,26,"magenta",2,0.3)
 }
 
 
