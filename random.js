@@ -23,7 +23,18 @@ function createFirstScene() {
 function createSecondScene() {
     makeRect(0,0,200,100,"blue")
     makeRect(10,10,10,50,"red")
-}
+    makeRect(10,15,10,10,"green")
+    makeCircle(15,30,5,"white")
+    makeCircle(15,40,5,"white")
+    makeCircle(15,50,5,"white")
+    makeText("Flute",80,40,20,"sans-serif","navy",0.7)
+            var random = Math.random()
+    if(random<0.6) {
+        makeCircle(50,70,20,"red")
+    
+    }
+    }
+
 
 
 // Fill in this function so that it draws something using SVG shapes!
