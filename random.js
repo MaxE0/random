@@ -14,6 +14,10 @@ function createFirstScene() {
     makeCircle(40,30,30,"tan",1)
     makeCircle(40,30,10,"white")
     makeText("HipsterWHALE",100,30,10,"sans-serif","navy",0.5)
+        var random = Math.random()
+        if(random<0.6) {
+            makeCircle(150,50,20,"blue")
+        }
 }
 
 
@@ -50,6 +54,10 @@ function createThirdScene() {
     makeLine(64,45,55,26,"magenta",2,0.3)
     makeLine(44,65,57,36,"magenta",2,0.3)
     makeLine(12,44,7,26,"magenta",2,0.3)
+    var random = Math.random()
+    if(random<0.6) {
+        makeCircle(130,40,40,"white")
+    }
 }
 
 
